@@ -3,4 +3,5 @@ ultralytics
 easyocr
 streamlit
 gradio
+opencv-python
 opencv-python-headless
