@@ -1,4 +1,6 @@
 roboflow
 ultralytics
 easyocr
+streamlit
 gradio
+opencv-python
