@@ -3,15 +3,14 @@
 ## Project Overview
 This project develops an automated system for detecting and recognizing license plates in both images and video streams. It integrates YOLO (You Only Look Once) for efficient object detection of license plates with EasyOCR for optical character recognition. The system is designed to provide stable recognition results, especially in video, by using a voting mechanism. It offers two user interfaces: a Gradio application for quick image inference and a more robust Streamlit application capable of processing both images and videos.
 
+* **Interactive Web Interfaces**: Provides [Streamlit](https://license-plate-recognition-with-yolov8-and-ocr.streamlit.app/) application for Advanced interface supporting both image and video uploads, offering a cleaner UI and download options for processed videos.
+
 ## Features
 -   **License Plate Detection**: Employs a fine-tuned YOLOv8 model to accurately locate license plates within frames.
 -   **Optical Character Recognition (OCR)**: Uses EasyOCR to extract alphanumeric characters from the detected license plate regions.
 -   **Plate Text Stabilization**: For video processing, a history-based voting mechanism is implemented to reduce flickering and improve the stability of recognized plate numbers over time.
 -   **Flexible Plate Pattern Matching**: Utilizes a regular expression to validate recognized plate numbers, allowing for diverse global license plate formats.
 -   **Video Processing**: Processes video files frame by frame, annotates them with bounding boxes and recognized plate text, and saves the output as a new video file.
--   **Interactive Web Interfaces**: Provides both a [Gradio](https://gradio.app/) and a [Streamlit](https://license-plate-recognition-with-yolov8-and-ocr.streamlit.app/) application for user-friendly interaction:
-    -   **Gradio**: Simple interface for image uploads and immediate results.
-    -   **Streamlit**: Advanced interface supporting both image and video uploads, offering a cleaner UI and download options for processed videos.
 
 ## Technologies Used
 -   **Ultralytics YOLOv8**
