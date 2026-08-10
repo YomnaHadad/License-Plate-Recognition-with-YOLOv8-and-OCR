@@ -1,4 +1,4 @@
-MODEL_PATH = "D:\\license_plate_data\\models\\best_license_plate_recognition.pt"
+MODEL_PATH = "models/best_license_plate_recognition.pt"
 
 OCR_LANGUAGES = ['en']
 
