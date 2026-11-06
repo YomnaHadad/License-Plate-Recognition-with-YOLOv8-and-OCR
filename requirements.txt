@@ -1,7 +1,6 @@
-roboflow
-ultralytics
-easyocr
-streamlit
-gradio
-opencv-python
-opencv-python-headless
+roboflow==1.7.3
+ultralytics==8.4.203
+easyocr==1.7.2
+streamlit==1.56.0
+opencv-python==4.13.0.92
+opencv-python-headless==5.0.0.93
